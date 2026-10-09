@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
+    branches: [main, validation/upstream-main-91f6303]
   workflow_dispatch:
 
 permissions:
