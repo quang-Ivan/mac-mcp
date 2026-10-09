@@ -2,7 +2,7 @@ name: Browser DOM Regression
 
 on:
   pull_request:
-    branches: [main]
+    branches: [main, validation/upstream-main-91f6303]
   push:
     branches: [main]
   workflow_dispatch:

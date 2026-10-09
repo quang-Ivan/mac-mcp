@@ -7,7 +7,7 @@ on:
       - "pyproject.toml"
       - ".github/workflows/dependency-audit.yml"
   pull_request:
-    branches: [main]
+    branches: [main, validation/upstream-main-91f6303]
     paths:
       - "pyproject.toml"
       - ".github/workflows/dependency-audit.yml"
